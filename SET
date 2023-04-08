@@ -1,0 +1,6 @@
+lst=" hey i m walking here  i m walking here o captain my captain water water everywhere nor a drop to drink"
+print(lst.split())
+unique_words = set(lst.split())
+print(unique_words)  
+length = len(unique_words)
+print(length)  
